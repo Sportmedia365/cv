@@ -1,0 +1,160 @@
+/*navigatie aanpassen*/
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+/*Onderkant van de website aanpassen*/
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/*tabel stijlen*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: gray;
+    color: white
+}
+
+table {
+    table-layout: fixed;
+}
+
+/*opmaak contactformuliervelden*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+body {/* Verander deze kleur naar de gewenste achtergrondkleur */
+    background-color: darkgray; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {/* Verander deze kleur naar de gewenste kleur voor de body elementen */
+    width: 80%;
+    background-color: lightgray; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.footer {/* Verander deze kleur naar de gewenste kleur voor het footer element */
+    width: 80%;
+    background-color: gray; 
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.header {/* Verander deze kleur naar de gewenste kleur voor het footer element */
+    width: 80%;
+    background-color: gray; 
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/*Call to action homepage*/
+.cta {
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    
+    border-radius: 5px;
+}
+
+.cta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #ef5350;
+}
